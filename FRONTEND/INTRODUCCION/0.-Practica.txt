@@ -1,0 +1,9 @@
+*automatizar demandas por medio de formulario
+*proceso de pago despues del  formulario
+*se crea una cuenta opara dar continuidad
+*con el formulñario se crea la demanda
+*se recibe el pago, se ve en el dash borad
+*se agregan actualizaciones del proceso 
+*envio de correo por actualizacion
+*la paguina debe d verse en el celular 
+*azul y blacno la paguina pero hay propuiestas
