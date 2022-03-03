@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEDIDO</title>
+</head>
+
+<body>
+    <h1>REALIZA TU PEDIDO</h1>
+
+    <h3>Ingresa tus datos</h3>
+    <label>Nombre:</label><br>
+    <input type="text" name="nombre" id="Nombre" placeholder="Nombre"><br><br>
+    <label>Numero de Telefono:</label><br>
+    <input type="tel" name="telefono" id="tel" placeholder="Numero de telefono"><br><br>
+    <label>Correo Electronico</label><br>
+    <input type="email" name="correo" id="correo" placeholder="Correo Electronico "><br><br><br>
+
+
+    <h3>Elige tu pastel</h3>
+    <input type="radio" name="spastel" id="bpastel"></input>
+    <label for="pastel">Pastel Basico</label>
+    <input type="radio" name="spastel" id="epastel"></input>
+    <label for="pastel">Pastel Basico</label>
+
+    <h3>Pastel Basico</h3>
+    <select name="pastel basico" id="pastelb" required>
+        <option value="Ninguno">Ninguno</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Vainilla">Vainilla</option>
+        <option value="Fresa">Fresa</option>
+        <option value="Moka">Moka</option>
+        <option value="Nuez">Nuez</option>
+        <option value="Coco">Coco</option>
+        </select>
+
+    <h3>Pastel Especial</h3>
+    <select name="pastel especial" id="pastele" required>
+        <option value="Ninguno">Ninguno</option>
+        <option value="Carlos V">Carlos V</option>
+        <option value="Milky Way">Milky Way</option>
+        <option value="Ferrero Roche">Ferrero Roche</option>
+        <option value="Snickers">Snickers</option></select>
+
+    <h3>Selecciona tu adorno</h3>
+    <select name="adorno" id="adorno" required>
+        <option value="None" >Ninguno</option>
+        <option value="TextP">Texto personalizado</option>
+        <option value="Imgp">Imagen en el pastel</option></select>
+    <h3>Selecciona algo extra</h3>
+    <select name="extra " id="extra " required>
+        <option value="None " >Ninguno</option>
+        <option value="relleno ">Relleno</option>
+        <option value="Ccapas">Cantidad de capas</option>
+        <option value="pisos">Pisos del Pastel</option>
+        <option value="Combinar">Combinar Sabores</option></select><br><br>
+    <input type="submit" value="Enviar Pedido">
+    <input type="reset" value="Cancelar Pedido">
+    <a href="./RESPOSTERIA_LUNCHX.html"><input type="button" value="Volver"></a>
+
+</html>
